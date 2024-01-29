@@ -1,0 +1,105 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 32-bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 17:52:46  April 04, 2022
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		SprinterJoy_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY MAX3000A
+set_global_assignment -name DEVICE "EPM3128ATC100-10"
+set_global_assignment -name TOP_LEVEL_ENTITY SprinterJoy
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:52:46  APRIL 04, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name DEVICE_FILTER_PACKAGE TQFP
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 100
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 10
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR "-1"
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name SYSTEMVERILOG_FILE SprinterJoy.sv
+set_global_assignment -name MAX7000_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_92 -to a[0]
+set_location_assignment PIN_93 -to a[1]
+set_location_assignment PIN_94 -to a[2]
+set_location_assignment PIN_96 -to a[3]
+set_location_assignment PIN_97 -to a[4]
+set_location_assignment PIN_98 -to a[5]
+set_location_assignment PIN_99 -to a[6]
+set_location_assignment PIN_100 -to a[7]
+set_location_assignment PIN_1 -to a[8]
+set_location_assignment PIN_2 -to a[9]
+set_location_assignment PIN_5 -to a[10]
+set_location_assignment PIN_6 -to a[11]
+set_location_assignment PIN_4 -to TDI
+set_location_assignment PIN_62 -to TCK
+set_location_assignment PIN_73 -to TDO
+set_location_assignment PIN_15 -to TMS
+set_location_assignment PIN_7 -to a[12]
+set_location_assignment PIN_8 -to a[13]
+set_location_assignment PIN_9 -to a[14]
+set_location_assignment PIN_10 -to a[15]
+set_location_assignment PIN_90 -to clk14
+set_location_assignment PIN_87 -to clk50
+set_location_assignment PIN_12 -to d[0]
+set_location_assignment PIN_13 -to d[1]
+set_location_assignment PIN_14 -to d[2]
+set_location_assignment PIN_16 -to d[3]
+set_location_assignment PIN_17 -to d[4]
+set_location_assignment PIN_19 -to d[5]
+set_location_assignment PIN_20 -to d[6]
+set_location_assignment PIN_21 -to d[7]
+set_location_assignment PIN_24 -to ior_n
+set_location_assignment PIN_89 -to reset
+set_global_assignment -name SYSTEMVERILOG_FILE ClockGenerator.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SegaJoy.sv
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+set_location_assignment PIN_36 -to sj1[5]
+set_location_assignment PIN_29 -to sj1[4]
+set_location_assignment PIN_35 -to sj1[3]
+set_location_assignment PIN_32 -to sj1[2]
+set_location_assignment PIN_30 -to sj1[1]
+set_location_assignment PIN_28 -to sj1[0]
+set_location_assignment PIN_31 -to sj1_sel
+set_location_assignment PIN_50 -to sj2[5]
+set_location_assignment PIN_45 -to sj2[4]
+set_location_assignment PIN_49 -to sj2[3]
+set_location_assignment PIN_48 -to sj2[2]
+set_location_assignment PIN_46 -to sj2[1]
+set_location_assignment PIN_44 -to sj2[0]
+set_location_assignment PIN_47 -to sj2_sel

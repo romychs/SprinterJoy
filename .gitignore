@@ -1,0 +1,7 @@
+*.bak
+*.rpt
+*.smsg
+*.summary
+*.done
+db/
+incremental_db/
