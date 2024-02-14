@@ -11,7 +11,7 @@ module SprinterJoy (
 	input wire reset,		      // ISA RESET 
 	input wire ior_n,		      // ISA -IOR
 	
-	input wire [15:0] a,		   // ISA A0-A15
+	input wire [11:0] a,		   // ISA A0-A15
 	inout wire [7:0] d,		   // ISA D0-D7
 
 	input wire [5:0] sj1,		// Sega Joystick 1

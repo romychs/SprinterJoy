@@ -3,5 +3,14 @@
 *.smsg
 *.summary
 *.done
+*.vo
+*.xdo
+*.xrf
+*.cdf
+*.jdi
+*.pin
 db/
 incremental_db/
+Firmware/simulation/
+Firmware/db/
+Firmware/incremental_db/
