@@ -6,7 +6,7 @@ module SprinterJoy (
 	
 	// Сигналы шины ISA
 	input wire clk14,			   // 14MHz ISA Clock
-	input wire clk50,			   // 50MHz Oscillator Clock
+	//input wire clk50,			   // 50MHz Oscillator Clock
 	
 	input wire reset,		      // ISA RESET 
 	input wire ior_n,		      // ISA -IOR
@@ -46,7 +46,7 @@ module SprinterJoy (
 	
 	
 	ClockGenerator clockGenerator(
-	   .clk(clk50),
+	   .clk(clk14),
 		.reset(reset),
 		.sj_clk(sj_clk)
 	);

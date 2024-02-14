@@ -65,7 +65,6 @@ set_location_assignment PIN_2 -to a[9]
 set_location_assignment PIN_5 -to a[10]
 set_location_assignment PIN_6 -to a[11]
 set_location_assignment PIN_90 -to clk14
-set_location_assignment PIN_87 -to clk50
 set_location_assignment PIN_12 -to d[0]
 set_location_assignment PIN_13 -to d[1]
 set_location_assignment PIN_14 -to d[2]
@@ -80,9 +79,9 @@ set_global_assignment -name SYSTEMVERILOG_FILE ClockGenerator.sv
 set_global_assignment -name SYSTEMVERILOG_FILE SegaJoy.sv
 set_global_assignment -name USE_CONFIGURATION_DEVICE ON
 set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
-set_location_assignment PIN_35 -to sj1[5]
+set_location_assignment PIN_36 -to sj1[5]
 set_location_assignment PIN_29 -to sj1[4]
-set_location_assignment PIN_76 -to sj1[3]
+set_location_assignment PIN_35 -to sj1[3]
 set_location_assignment PIN_32 -to sj1[2]
 set_location_assignment PIN_30 -to sj1[1]
 set_location_assignment PIN_28 -to sj1[0]
